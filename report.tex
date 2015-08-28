@@ -54,10 +54,13 @@
   \tocsection{Summary}
   {
 
-  \lipsum[10-11] % remove this line
-
-  % Write your summary here
-
+Since the creation of Python, and with it, libraries like iPython Notebooks, Pandas, and Scipy,  building data analysis tools have never been easier. The field of machine learning has seen many new developments in the python ecosystem. With the advent of scikit learn building machine learning pipelines have become very simple. Python is used as a way to interactively explore the problem space, creating easy summaries and visualizations to describe the data.  Pandas allows us to easily manipulate the data for either exploration, or to generate features for your machine learning algorithm, Lastly, scikit offers a great collection of abstractions that makes building pipelines a breeze.
+\\
+\\
+However there are some limitations in terms of the volume the pipeline is able to ingest. What data size becomes a problem tools like vowel rabbit or spark can offer much for power at the cost of simplicity. It is up to the developer to decide if its worth giving up pipelines and feature unions for vowel wabbit or the invest in the overhead of big data for spark.
+\\
+\\
+If its recommended to prototype the pipelines in python, and migrate when things get too high volume. 
   }
   \newpage
 }
@@ -229,8 +232,13 @@ The biggest bottleneck is that scikit is bound my memory and a single for, which
 \newcommand{\references}{
   \makereferences{
       % Add each reference like this, with some label for each item
-      \bibitem{labelName}
-      Champion, R., Paci, T. \& Vardon, J. (2012). PD 2: Critical Reflection and Report Writing. Retrieved 1 March, 2012 from https://learn.uwaterloo.ca/d2l/le/content/80224/viewContent/605550/View
+     \bibitem{ipython}
+     "Jupyter and the Future of IPython¶." Jupyter and the Future of IPython ? IPython. N.p., n.d. Web. 28 Aug. 2015.
+     \bibitem{seaborn}
+     "Seaborn: Statistical Data Visualization¶." Seaborn: Statistical Data Visualization ? Seaborn 0.6.0 Documentation. N.p., n.d. Web. 28 Aug. 2015.
+     \bibitem{sklearn}
+     "Scikit-learn." : Machine Learning in Python ? 0.16.1 Documentation. N.p., n.d. Web. 28 Aug. 2015.
+
   }
 }
 
